@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="About"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        android:background="@color/Bee_Yellow"/>
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password ?"
+        android:textColor="#FFFFFF"
+        android:background="@color/Basket_Ball_Orange"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/button5"
+        android:layout_toStartOf="@+id/button5"
+        android:layout_alignTop="@+id/button5"/>
+</RelativeLayout>
